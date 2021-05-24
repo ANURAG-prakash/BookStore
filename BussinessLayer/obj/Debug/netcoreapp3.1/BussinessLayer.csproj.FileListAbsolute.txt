@@ -1,0 +1,14 @@
+D:\BookStoreApi\BussinessLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+D:\BookStoreApi\BussinessLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.dll
+D:\BookStoreApi\BussinessLayer\obj\Debug\netcoreapp3.1\BussinessLayer.csprojAssemblyReference.cache
+D:\BookStoreApi\BussinessLayer\obj\Debug\netcoreapp3.1\BussinessLayer.AssemblyInfoInputs.cache
+D:\BookStoreApi\BussinessLayer\obj\Debug\netcoreapp3.1\BussinessLayer.AssemblyInfo.cs
+D:\BookStoreApi\BussinessLayer\bin\Debug\netcoreapp3.1\BussinessLayer.deps.json
+D:\BookStoreApi\BussinessLayer\bin\Debug\netcoreapp3.1\BussinessLayer.dll
+D:\BookStoreApi\BussinessLayer\bin\Debug\netcoreapp3.1\BussinessLayer.pdb
+D:\BookStoreApi\BussinessLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+D:\BookStoreApi\BussinessLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
+D:\BookStoreApi\BussinessLayer\obj\Debug\netcoreapp3.1\BussinessLayer.csproj.CoreCompileInputs.cache
+D:\BookStoreApi\BussinessLayer\obj\Debug\netcoreapp3.1\BussinessLayer.csproj.CopyComplete
+D:\BookStoreApi\BussinessLayer\obj\Debug\netcoreapp3.1\BussinessLayer.dll
+D:\BookStoreApi\BussinessLayer\obj\Debug\netcoreapp3.1\BussinessLayer.pdb
