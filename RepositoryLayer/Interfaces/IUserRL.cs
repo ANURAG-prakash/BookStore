@@ -7,7 +7,7 @@ namespace RepositoryLayer.Interfaces
 {
     public interface IUserRL
     {
-        public User Authenticate(string email, string password);
+        public User Authenticate(string Email, string Password);
 
     }
 }

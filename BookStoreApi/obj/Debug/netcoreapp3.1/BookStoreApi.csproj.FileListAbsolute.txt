@@ -43,3 +43,11 @@ D:\BookStoreApi\BookStoreApi\obj\Debug\netcoreapp3.1\BookStoreApi.csproj.CopyCom
 D:\BookStoreApi\BookStoreApi\obj\Debug\netcoreapp3.1\BookStoreApi.dll
 D:\BookStoreApi\BookStoreApi\obj\Debug\netcoreapp3.1\BookStoreApi.pdb
 D:\BookStoreApi\BookStoreApi\obj\Debug\netcoreapp3.1\BookStoreApi.genruntimeconfig.cache
+D:\BookStoreApi\BookStoreApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BookStoreApi\BookStoreApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BookStoreApi\BookStoreApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\BookStoreApi\BookStoreApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\BookStoreApi\BookStoreApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BookStoreApi\BookStoreApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\BookStoreApi\BookStoreApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\BookStoreApi\BookStoreApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
