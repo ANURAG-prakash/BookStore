@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Sn9XwJeiqlcimrhyRzLnRtBu4o3I7xih1TQ/mrIbsIPP6MvkI3i0h6xnpbY7vyL4p9WCnSbwF2UH1I4Kmb0jrw==",
+  "dgSpecHash": "wrrgHVFysC2ngXVsiY+e0RvE8JXEipxBMdEausniSWyuR0KqfKPYQ53BaQfrEgofDEclB4zIbrKg4UNyS9QC3g==",
   "success": true,
   "projectFilePath": "D:\\BookStoreApi\\BussinessLayer\\BussinessLayer.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\praka\\.nuget\\packages\\mongodb.driver\\2.12.3\\mongodb.driver.2.12.3.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\mongodb.driver.core\\2.12.3\\mongodb.driver.core.2.12.3.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.1\\mongodb.libmongocrypt.1.2.1.nupkg.sha512",
+    "C:\\Users\\praka\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512",

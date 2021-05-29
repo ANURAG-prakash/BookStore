@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cW1XZ436IC4ynH4J6V5U+TuvpRKAgFy9bJwe2y7aUo35Mi32y87BttPBF3bGNp+EvirlHCdKmOQahcs1JITu6Q==",
+  "dgSpecHash": "Z4gwYFHP8aCl+DOjW5X04XZZ60Rb2CW80xJ3rexE2srJkzZbbKlyPqhSiHMM6phl4Cj/JAX+11mB3cHVJwDmRQ==",
   "success": true,
   "projectFilePath": "D:\\BookStoreApi\\Common Layer\\CommonLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\praka\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\mongodb.bson\\2.12.3\\mongodb.bson.2.12.3.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\mongodb.bson.signed\\2.12.2\\mongodb.bson.signed.2.12.2.nupkg.sha512",
+    "C:\\Users\\praka\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512",
     "C:\\Users\\praka\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
