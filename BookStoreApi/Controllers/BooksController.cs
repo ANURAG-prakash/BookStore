@@ -24,6 +24,7 @@ namespace BookStoreApi.Controllers
 
         private List<string> GetTokenType()
         {
+            
             string id = User.FindFirst("Id").Value;
             string type = User.FindFirst("ServiceType").Value;
             List<string> x = new List<string>();

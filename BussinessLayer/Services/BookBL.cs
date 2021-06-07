@@ -14,7 +14,11 @@ namespace BussinessLayer.Services
         readonly IBookRL bookRL;
         public BookBL(IBookRL bookRL)
         {
-            this.bookRL = bookRL;
+            
+            
+                this.bookRL = bookRL;
+            
+            
         }
 
         public Book Create(Book book)

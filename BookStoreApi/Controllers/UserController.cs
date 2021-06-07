@@ -97,6 +97,13 @@ namespace BookStoreApi.Controllers
         }
 
 
+        [HttpGet]
+        public IActionResult Get()
+        {
+            var book = _bookBL.Get();
+            return this.Ok(new { sucess = true, book });
+        }
+
         [HttpPut("{id}/MoveToCart")]
         public IActionResult MoveToCart(string id)
         {

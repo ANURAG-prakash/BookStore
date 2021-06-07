@@ -10,7 +10,8 @@ namespace RepositoryLayer.Interfaces
     public interface ICartRL
     {
         public Orders Create(Orders order);
-        public List<Cart> GetCart(string id);
+        public dynamic GetCart(string id);
         public void Remove(string bookid, string userId);
+
     }
 }

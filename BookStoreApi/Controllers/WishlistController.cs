@@ -51,6 +51,19 @@ namespace BookStoreApi.Controllers
             return this.Ok(new { success = true, wishList });
         }
 
+
+        [HttpGet ("Books/{userId}")]
+        public IActionResult GetWishlistBooks(String userId)
+        {
+            if (GetTokenType()[1] != "User")
+            {
+
+                return this.BadRequest(new { success = false, message = "Only User Allowed" });
+            }
+            var wishList = _wishListBL.GetWishListBooks(userId);
+            return this.Ok(new { success = true, Data = wishList });
+        }
+
         [HttpPut("{id}/MoveToCart")]
         public IActionResult MoveToCart(string id)
         {
@@ -70,6 +83,28 @@ namespace BookStoreApi.Controllers
             _userBL.ToCart(book, Get(GetTokenType()[0]));
 
             return this.Ok(new { success = true, message = "Moved to Cart" });
+        }
+
+        [AllowAnonymous]
+        [HttpDelete]
+        public IActionResult Delete(string bookId)
+        {
+            if (GetTokenType()[1] != "User")
+            {
+
+                return this.BadRequest(new { success = false, message = "Only User Allowed" });
+            }
+            var cartBook = _wishListBL.GetWishList(GetTokenType()[0]);
+            var book = _bookBL.Get(bookId);
+
+            if (book == null)
+            {
+                return this.BadRequest(new { success = false, message = "Book notfound" });
+            }
+
+            _wishListBL.Remove(bookId, GetTokenType()[0]);
+
+            return this.Ok(new { success = true, message = "Book Deleted" });
         }
 
         private User Get(string id)

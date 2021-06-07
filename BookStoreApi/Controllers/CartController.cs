@@ -74,7 +74,7 @@ namespace BookStoreApi.Controllers
             {
                 _bookBL.Update(bookId, book);
                 _cartBL.Remove(bookId, GetTokenType()[0]);
-                Orders order = new Orders() { BookName = book.BookName, Price = book.Price};
+                Orders order = new Orders() { BookName = book.BookName, Price = book.Price ,  BooksOrdered = quantity };
                 _cartBL.Create(order);
                 return this.Ok(new { success = true, message = "Book Ordered" });
             }
@@ -83,6 +83,28 @@ namespace BookStoreApi.Controllers
                 return this.BadRequest(new { success = false, message = "Book Order Failed due to Availablity" });
             }
         }
+
+        [HttpDelete]
+        public IActionResult Delete(string bookId)
+        {
+            if (GetTokenType()[1] != "User")
+            {
+
+                return this.BadRequest(new { success = false, message = "Only User Allowed" });
+            }
+            var cartBook = _cartBL.GetCart(GetTokenType()[0]);
+            var book = _bookBL.Get(bookId);
+
+            if (book == null)
+            {
+                return this.BadRequest(new { success = false, message = "Book notfound" });
+            }
+
+            _cartBL.Remove(bookId, GetTokenType()[0]);
+
+            return this.Ok(new { success = true, message = "Book Deleted" });
+        }
+
     }
 
 }

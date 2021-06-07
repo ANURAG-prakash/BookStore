@@ -19,7 +19,6 @@ namespace Common_Layer.Models
         [JsonProperty("Name")]
         public string BookName { get; set; }
         public decimal Price { get; set; }
-        public string Email { get; set; }
         public int BooksOrdered { get; set; }
     }
 }

@@ -15,6 +15,6 @@ namespace BussinessLayer.Interfaces
         public void Update(string id, Book bookIn);
         public void Remove(Book bookIn);
         public void Remove(string id);
-      
+        
     }
 }

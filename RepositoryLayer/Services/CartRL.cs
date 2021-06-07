@@ -27,7 +27,7 @@ namespace RepositoryLayer.Services
             return order;
         }
 
-        public List<Cart> GetCart(string id) =>
+        public dynamic GetCart(string id) =>
             this._cart.Find<Cart>(list => list.UserId == id).ToList();
 
         public void Remove(string id, string userId) =>

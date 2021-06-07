@@ -12,21 +12,19 @@ namespace CommonLayer.Models
         public string Id { get; set; }
 
         [BsonElement("Name")]
+        
         public string BookName { get; set; }
 
         public decimal Price { get; set; }
 
         public string Category { get; set; }
 
-        public string Author { get; set; }
+        public string Authors { get; set; }
 
-        public bool Wishlist { get; set; }
-        public bool Cart { get; set; }
         public DateTime Arrival { get; set; }
-        public string Image { get; set; }
 
-        public string Discription { get; set; }
         public int AvailableBooks { get; set; }
+        public string Description { get; set; }
 
     }
 }

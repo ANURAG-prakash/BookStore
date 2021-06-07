@@ -15,11 +15,10 @@ namespace Common_Layer.Models
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-
+        [BsonRepresentation(BsonType.ObjectId)]
         public string BookId { get; set; }
-
         public decimal Price { get; set; }
-
+        [BsonRepresentation(BsonType.ObjectId)]
         public string UserId { get; set; }
     }
 }

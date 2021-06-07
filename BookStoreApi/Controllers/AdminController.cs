@@ -69,10 +69,11 @@ namespace BookStoreApi.Controllers
                 // return basic user info and authentication token
                 return Ok(new
                 {
+                    success = true,
                     Email = user.Email,
                     Password = "*******",
                     Token = tokenString
-                });
+                }) ;
             }
             catch (Exception ex)
             {

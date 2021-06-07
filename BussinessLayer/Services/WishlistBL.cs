@@ -26,5 +26,30 @@ namespace BussinessLayer.Services
                 throw ex;
             }
         }
+
+        public dynamic GetWishListBooks(string userId)
+        {
+
+            try
+            {
+                return wishListRL.GetWishList(userId);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void Remove(string bookid, string userId)
+        {
+            try
+            {
+                this.wishListRL.Remove(bookid , userId);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
